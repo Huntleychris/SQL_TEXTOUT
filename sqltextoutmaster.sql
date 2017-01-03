@@ -34,3 +34,6 @@ exec master..xp_cmdshell @bcpCommand
 
 DROP TABLE  tbl_spstorage
 DROP TABLE spoutput
+
+-- ' has bugs and needs work to get from regular heap tables to temp or table
+--variables, not sure how the BCP handles it, will also add while loops to populate'
